@@ -9,7 +9,7 @@ The main hook is ```useSalty```
 ```js
 const [{value, other_value}, set] = useSalty('this_scope')
 ```
-This returns an array.The first element is the data for this scope. If an item has not been set yet, it will be null.
+This returns an array. The first element is the data for this scope. If an item has not been set yet, it will be null.
 
 The second element is the ```set``` function. It takes an object comprised of key-value pairs as its only argument:
 
