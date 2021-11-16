@@ -1,4 +1,9 @@
 # React Salty State
+<p align="center">
+  <a href="https://www.npmjs.com/package/react-salty-state"><img src="https://img.shields.io/npm/v/react-salty-state.svg"></a>
+  <a href="https://bundlephobia.com/result?p=react-salty-state"><img src="https://img.shields.io/bundlephobia/minzip/react-salty-state.svg" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
+</p>
 
 A simple global state system for React. Built on top of [react-sweet state](https://github.com/atlassian/react-sweet-state). This exists because I got annoyed passing callbacks to child components and wanted to minimize writing boilerplate.
 
