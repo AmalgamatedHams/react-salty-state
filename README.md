@@ -2,6 +2,11 @@
 
 A simple global state system for React. Built on top of [react-sweet state](https://github.com/atlassian/react-sweet-state). This exists because I got annoyed passing callbacks to child components and wanted to minimize writing boilerplate.
 
+Install with NPM:
+```
+npm install react-salty-state
+```
+
 There are three hooks. Each takes a string argument that sets the scope. Each scope represents a global data store.
 
 The main hook is ```useSalty```
