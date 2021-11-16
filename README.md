@@ -6,32 +6,32 @@ There are three hooks. Each takes a string argument that sets the scope. Each sc
 
 The main hook is ```useSalty```
 
-```
+```js
 const [{value, other_value}, set] = useSalty('this_scope')
 ```
 This returns an array.The first element is the data for this scope. If an item has not been set yet, it will be null.
 
 The second element is the ```set``` function. It takes an object comprised of key-value pairs as its only argument:
 
-```
+```js
 set({value: 56, other_value: "Hello", yet_another_value: [4,6,4.5]})
 ```
 ```set``` merges the current data with the object passed as an argument. 
 
 The other two hooks are for convenience:
 
-```
+```js
 const {value, other_value} = useSaltyRead('this_scope')
 ```
 This returns items in the data store without the ```set``` function.
 
-```
+```js
 const set = useSaltyWrite('this_scope')
 ```
 This returns only the set function.
 
 ## Example Usage
-```
+```js
 /**
  * Component to show the sum of some numbers
 */
