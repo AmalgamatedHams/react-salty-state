@@ -33,11 +33,11 @@ export function useSalty(scope) {
 }
 
 export function useSaltyRead(scope){
-  const[state] = exports.useSalty(scope);
+  const[state] = useSalty(scope);
   return state;
 }
 
 export function useSaltyWrite(scope){
-  const [,set] = exports.useSalty(scope);
+  const [,set] = useSalty(scope);
   return set;
 }
