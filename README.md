@@ -106,9 +106,7 @@ const App = () => {
 };
 ```
 
-This displays as:
-
-![example-result](example-result.png)
+[Try it out in CodeSandbox](https://codesandbox.io/s/react-salty-state-example-ho3mx)
 
 
 
